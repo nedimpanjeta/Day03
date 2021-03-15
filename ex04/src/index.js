@@ -1,15 +1,12 @@
 function main() {
-
-//Zeljoo
-/*Zeljoo*/
-x = 10
-y = 10
-x = y
-
-return [x, y]; 
+    // Only change code below this line 
+var x = 10;
+var y = x; 
+    // Only change code above this line 
+    return [x,y]
 
 }
 
-main();
+console.log(main());
 
 module.exports = main;
